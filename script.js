@@ -6,89 +6,89 @@ const products = [
     {
         id: 1, isNew: true, title: "Amortiguadores Traseros Premium", category: "Refacciones", price: 1735.00,
         images: ["https://m.media-amazon.com/images/I/719V8uJDZRL._AC_SX522_.jpg", "https://m.media-amazon.com/images/I/71WowKq+Q4L._AC_SX522_.jpg" , "https://m.media-amazon.com/images/I/81yhninBk3L._AC_SX522_.jpg"],
-        amazonUrl: "https://www.amazon.com.mx/s?k=amortiguadores+para+auto",
+        amazonUrl: "https://www.amazon.com.mx/dp/B0DB6QTDPM",
         description: "Set de amortiguadores de gas de alta durabilidad para una conducción suave y segura."
     },
     {
         id: 2, isNew: false, title: "Filtro de Aceite Sintético", category: "Refacciones", price: 1358.00,
         images: ["https://m.media-amazon.com/images/I/61zZpX0P+kL._AC_SX522_.jpg" , "https://m.media-amazon.com/images/I/719JoYRO8LL._AC_SX522_.jpg" , "https://m.media-amazon.com/images/I/71co+iJL4VL._AC_SX522_.jpg" ],
-        amazonUrl: "https://www.amazon.com.mx/s?k=filtro+de+aceite+para+auto",
+        amazonUrl: "https://www.amazon.com.mx/dp/B004SIURFI",
         description: "Filtro de alto rendimiento que atrapa hasta el 99% de las impurezas del motor."
     },
     {
         id: 3, isNew: true, title: "Balatas de Cerámica", category: "Refacciones", price: 6476.00,
         images: ["https://m.media-amazon.com/images/I/71ot4I1QXsL._AC_SX522_.jpg" , "https://m.media-amazon.com/images/I/71HMano9JwL._AC_SX522_.jpg"],
-        amazonUrl: "https://www.amazon.com.mx/s?k=balatas+de+freno",
+        amazonUrl: "https://www.amazon.com.mx/dp/B0CJT45HDZ",
         description: "Frenado silencioso y con menor emisión de polvo. Ideal para manejo en ciudad."
     },
     {
         id: 4, isNew: false, title: "Batería de Gel 12V", category: "Refacciones", price: 6348.00,
         images: ["https://m.media-amazon.com/images/I/613o7DeQ-6L._AC_SX522_.jpg" , "https://m.media-amazon.com/images/I/61Cd+ieJ7UL._AC_SX522_.jpg" ,"https://m.media-amazon.com/images/I/712Rz8WdjUL._AC_SX522_.jpg"],
-        amazonUrl: "https://www.amazon.com.mx/s?k=bateria+para+auto",
+        amazonUrl: "https://www.amazon.com.mx/dp/B0CPP2FKXB",
         description: "Batería libre de mantenimiento con tecnología de gel para mayor vida útil y rendimiento en climas extremos."
     },
     {
         id: 5, isNew: false, title: "Kit de Faros LED Luz Blanca", category: "Refacciones", price: 6987.00,
         images: ["https://m.media-amazon.com/images/I/71FwMAKGw4L._AC_SY300_SX300_QL70_ML2_.jpg" , "https://m.media-amazon.com/images/I/818uYsa2olL._AC_SX522_.jpg" , "https://m.media-amazon.com/images/I/71B3jVB0y3L._AC_SX522_.jpg"],
-        amazonUrl: "https://www.amazon.com.mx/s?k=faros+led+para+auto",
+        amazonUrl: "https://www.amazon.com.mx/dp/B07TW4WHVB",
         description: "Iluminación de 8000 lúmenes con diseño de disipación de calor ultradelgado."
     },
     {
         id: 6, isNew: false, title: "Convertidor catalítico trasero", category: "Refacciones", price: 1442.00,
         images: ["https://m.media-amazon.com/images/I/71r2v4B9ZmL._AC_SX522_.jpg" , "https://m.media-amazon.com/images/I/71BnoTnBQ9L._AC_SX522_.jpg" , "https://m.media-amazon.com/images/I/71NvU+36u1L._AC_SX522_.jpg" , "https://m.media-amazon.com/images/I/71V-0iaGqzL._AC_SX522_.jpg"],
-        amazonUrl: "https://www.amazon.com.mx/s?k=convertidor+catalitico",
+        amazonUrl: "https://www.amazon.com.mx/dp/B0DQ4K8CLH",
         description: "PHILTOP - Convertidor catalítico trasero compatible con Honda Acura, 2005-2008 Odyssey/Pilot 3.5L, 2003-2007 Accord 3.0L, 2004-2008 TL 3.2L, 2006-2011 Ridgeline 3.5L, 2003-20006 MDX 3.5 L"
     },
     {
         id: 7, isNew: false, title: "Antimpacto Delantera Aveo", category: "Refacciones", price: 783.00,
         images: ["https://www.mazautopartes.net/fotos/productos/164985-ANDCAE12.jpg"],
-        amazonUrl: "https://www.amazon.com.mx/s?k=defensa+delantera+para+auto",
+        amazonUrl: "https://www.mazautopartes.net/antimpacto/antimpacto-delantera-aveo-2012-2013-2014-2015-2016-2017-dmv-677-sku-ANDCAE12.html",
         description: "Antimpacto Delantera Aveo 2012 2013 2014 2015 2016 2017 Dmv 677"
     },
     {
         id: 8, isNew: false, title: "Espejo Corolla Croos", category: "Refacciones", price: 3581.00,
         images: ["https://www.mazautopartes.net/fotos/productos/eltcc22er.jpg"],
-        amazonUrl: "https://www.amazon.com.mx/s?k=espejo+para+auto",
+        amazonUrl: "https://www.mazautopartes.net/espejo/espejo-corolla-croos-2022-2023-elect-p-pint-c-direcc-c-sensor-punto-ciego-c-desemp-8-pines-230908-der-sku-ELTCC22ER.html",
         description: "Espejo Corolla Croos 2022-2023 Elect P/Pint C/Direcc C/Sensor Punto Ciego C/Desemp 8 Pines 230908 Der"
     },
     {
         id: 9, isNew: false, title: "Garselay Kit de Gato Hidráulico para Auto", category: "Refacciones", price: 1442.00,
         images: ["https://m.media-amazon.com/images/I/61J+18FEX-L._AC_SX522_.jpg" , "https://m.media-amazon.com/images/I/71a41rkYFvL._AC_SX522_.jpg" , "https://m.media-amazon.com/images/I/71CCKlORbiL._AC_SX522_.jpg" , "https://m.media-amazon.com/images/I/71ZKAJY9ShL._AC_SX522_.jpg"],
-        amazonUrl: "https://www.amazon.com.mx/s?k=gato+hidraulico+para+auto",
+        amazonUrl: "https://www.amazon.com.mx/Garselay-Kit-de-Gato-Hidr%C3%A1ulico-para-Auto/dp/B0DGTQSTQZ",
         description: "Garselay Kit de Gato Hidráulico para Auto - 3 Toneladas Gato Portátil para Auto - Kit de Gato Compacto para Automóvil para SUV, RV y MPV con Diseño de Trinquete Inteligente"
     },
     {
         id: 10, isNew: false, title: "Radiador Agua S/Aire", category: "Refacciones", price: 5687.00,
         images: ["https://www.mazautopartes.net/fotos/productos/CRNK0100.png"],
-        amazonUrl: "https://www.amazon.com.mx/s?k=radiador+para+auto",
+        amazonUrl: "https://www.mazautopartes.net/radiador/radiador-agua-s-aire-std-380%C2%97370%C2%9722mm-t-mecanico-chrysler-dodge-atos-1-0l-2000-2004-sku-CRNK0100.html",
         description: "Radiador Agua S/Aire Std 380*370*22Mm T/Mecanico Chrysler / Dodge Atos 1.0L 2000 2004"
     },
     {
         id: 11, isNew: false, title: "Puerta Trasera Der (Color/Negro) Chevrolet Cruze 2010 2015", category: "Refacciones", price: 1751.00,
         images: ["https://www.mazautopartes.net/fotos/productos/CZNC1003.jpg"],
-        amazonUrl: "https://www.amazon.com.mx/s?k=puerta+para+auto",
+        amazonUrl: "https://www.mazautopartes.net/puerta/puerta-trasera-derecho-cruze-2010-2015-sku-CZNC1003.html",
         description: "Puerta Trasera Der (Color/Negro) Chevrolet Cruze 2010 2015"
     },
     {
         id: 12, isNew: false, title: "Contra Chapa Cofre Wrangler 87-96 Revi", category: "Refacciones", price: 125.00,
         images: ["https://www.mazautopartes.net/fotos/productos/165951-55009343.jpg" , "" , "" , ""],
-        amazonUrl: "https://www.amazon.com.mx/s?k=chapa+cofre+auto",
+        amazonUrl: "https://www.mazautopartes.net/chapas-y-contra-chapas/contra-chapa-cofre-wrangler-87-96-334-revi-sku-55009343.html",
         description: "Contra Chapa Cofre Wrangler 87-96 Revi"
     },
      {
         id: 13, isNew: false, title: "Defensa Delantera Taos 2021-2022-2023 Inf", category: "Refacciones", price: 125.00,
         images: ["https://www.mazautopartes.net/fotos/productos/ddvta21i.jpg"],
-        amazonUrl: "https://www.amazon.com.mx/s?k=defensa+delantera+para+auto",
+        amazonUrl: "https://www.mazautopartes.net/defensa/defensa-delantera-taos-2021-2022-2023-inf-sku-DDVTA21I.html",
         description: "Defensa Delantera Taos 2021-2022-2023 Inf"
     }, {
         id: 14, isNew: false, title: "Cofre S/Hoyo (Color/Gris)", category: "Refacciones", price: 1300.00,
         images: ["https://www.mazautopartes.net/fotos/productos/CCJP0510.jpg"],
-        amazonUrl: "https://www.amazon.com.mx/s?k=cofre+auto",
+        amazonUrl: "https://www.mazautopartes.net/cofre/cofre-s-hoyo-color-gris-3-4-5ptas-peugeot-pg-207-2012-2013-sku-CCJP0500.html",
         description: "Cofre S/Hoyo (Color/Gris) 3-4-5Ptas Peugeot Pg-207 Compact 2008 2012"
     }, {
         id: 15, isNew: false, title: "Bomba De Frenos S/Deposito", category: "Refacciones", price: 125.00,
         images: ["https://www.mazautopartes.net/fotos/productos/bfnc0110.jpg"],
-        amazonUrl: "https://www.amazon.com.mx/s?k=bomba+de+frenos",
+        amazonUrl: "https://www.mazautopartes.net/bomba-de-frenos/bomba-de-frenos-s-deposito-20-64mm-c-3-09-12-pick-up-99-04-chevrolet-chevy-1-6l-2001-2003-sku-BFNC0110.html",
         description: "Bomba De Frenos S/Deposito 20.64Mm (C-3 09-12/Pick-Up 99-04) Chevrolet Chevy 1.6L 2001 2003"
     },
 
@@ -96,31 +96,31 @@ const products = [
     {
         id: 16, isNew: true, title: "Audífonos Inalámbricos Minimal", category: "Electrónica", price: 999.00,
         images: ["https://m.media-amazon.com/images/I/61XQQPIo2cL._AC_SY679_.jpg" , "https://m.media-amazon.com/images/I/71+8Sf57C3L._AC_SY679_.jpg" , "https://m.media-amazon.com/images/I/61v+nEtx31L._AC_SY679_.jpg"],
-        amazonUrl: "https://www.amazon.com.mx/s?k=audifonos+inalambricos",
+        amazonUrl: "https://www.amazon.com.mx/dp/B0D35J7VDR",
         description: "Cancelación de ruido activa, batería de 30 horas y diseño en aluminio pulido."
     },
     {
         id: 17, isNew: false, title: "Smartwatch Deportivo V2", category: "Electrónica", price: 1500.00,
         images: ["https://m.media-amazon.com/images/I/61BG7aYMZEL._AC_SX522_.jpg" , "https://m.media-amazon.com/images/I/614pAKkequL._AC_SX522_.jpg" , "https://m.media-amazon.com/images/I/61qRWT+M+VL._AC_SX522_.jpg" ,"https://m.media-amazon.com/images/I/61dhz9ZKpKL._AC_SX522_.jpg"],
-        amazonUrl: "https://www.amazon.com.mx/s?k=smartwatch+deportivo",
+        amazonUrl: "https://www.amazon.com.mx/dp/B0GC657H83",
         description: "Caja de acero inoxidable, GPS integrado y resistencia al agua hasta 50 metros."
     },
     {
         id: 18, isNew: true, title: "Teclado Mecánico Elegante", category: "Electrónica", price: 2199.00,
         images: ["https://m.media-amazon.com/images/I/61mB8mL33pL._AC_SX522_.jpg" , "https://m.media-amazon.com/images/I/71eMryluCJL._AC_SX522_.jpg" , "https://m.media-amazon.com/images/I/61GleNTVFOL._AC_SX522_.jpg"],
-        amazonUrl: "https://www.amazon.com.mx/s?k=teclado+mecanico",
+        amazonUrl: "https://www.amazon.com.mx/dp/B09DGMXLFP",
         description: "Switches silenciosos, retroiluminación blanca sutil y chasis de aleación de magnesio."
     },
     {
         id: 19, isNew: false, title: "Monitor 4K Profesional", category: "Electrónica", price: 8534.00,
         images: ["https://m.media-amazon.com/images/I/91dkLCfM8dL._AC_SX522_.jpg" , "https://m.media-amazon.com/images/I/712-CXJj6oL._AC_SX522_.jpg" , "https://m.media-amazon.com/images/I/71PpaJoDtQL._AC_SX522_.jpg"],
-        amazonUrl: "https://www.amazon.com.mx/s?k=monitor+4k",
+        amazonUrl: "https://www.amazon.com.mx/dp/B0FB46P6F6",
         description: "Pantalla sin bordes de 27 pulgadas, calibración de color de fábrica y soporte ergonómico ajustable."
     },
     {
         id: 20, isNew: false, title: "Altavoz Bluetooth Portátil", category: "Electrónica", price: 800.00,
         images: ["https://m.media-amazon.com/images/I/71wOrl8wEwL._AC_SX522_.jpg" , "https://m.media-amazon.com/images/I/71DD1+YAhVL._AC_SX522_.jpg" , "https://m.media-amazon.com/images/I/61HT5x6yFxL._AC_SX522_.jpg"],
-        amazonUrl: "https://www.amazon.com.mx/s?k=altavoz+bluetooth+portatil",
+        amazonUrl: "https://www.amazon.com.mx/dp/B0C23HCN2L",
         description: "Sonido envolvente de 360 grados recubierto en tela premium acústicamente transparente."
     },
     {
@@ -130,7 +130,7 @@ const products = [
             "https://m.media-amazon.com/images/I/419JUSLGdEL._AC_SX522_.jpg",
             "https://m.media-amazon.com/images/I/51exQzEQL-L._AC_SX522_.jpg"
         ],
-        amazonUrl: "https://www.amazon.com.mx/s?k=laptop+ultrabook",
+        amazonUrl: "https://www.amazon.com.mx/dp/B0D4GP1P4F",
         description: "Procesador de última generación, 16GB de RAM y chasis de aluminio ultraligero. Ideal para productividad en movimiento."
     },
     {
@@ -139,7 +139,7 @@ const products = [
             "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?auto=format&fit=crop&q=80&w=800",
             "https://images.unsplash.com/photo-1589739900243-4b52cd9b104e?auto=format&fit=crop&q=80&w=800"
         ],
-        amazonUrl: "https://www.amazon.com.mx/s?k=tablet",
+        amazonUrl: "https://www.amazon.com.mx/s?k=Tablet+11+pulgadas+android+tableta",
         description: "Pantalla Liquid Retina, soporte para lápiz óptico y potencia suficiente para reemplazar tu computadora portátil."
     },
     {
@@ -148,7 +148,7 @@ const products = [
             "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?auto=format&fit=crop&q=80&w=800",
             "https://images.unsplash.com/photo-1502920917128-1aa500764cbd?auto=format&fit=crop&q=80&w=800"
         ],
-        amazonUrl: "https://www.amazon.com.mx/s?k=camara+mirrorless",
+        amazonUrl: "https://www.amazon.com.mx/s?k=C%C3%A1mara+mirrorless+4K+sony+canon+sin+espejo",
         description: "Sensor Full-Frame de 24MP, autoenfoque ocular híbrido y grabación de video 4K sin recortes."
     },
     {
@@ -157,7 +157,7 @@ const products = [
             "https://images.unsplash.com/photo-1606144042614-b2417e99c4e3?auto=format&fit=crop&q=80&w=800",
             "https://images.unsplash.com/photo-1605901309584-818e25960b8f?auto=format&fit=crop&q=80&w=800"
         ],
-        amazonUrl: "https://www.amazon.com.mx/s?k=consola+de+videojuegos",
+        amazonUrl: "https://www.amazon.com.mx/s?k=Consola+PlayStation+5+Xbox+videojuegos+next+gen",
         description: "Experimenta tiempos de carga ultrarrápidos con SSD de alta velocidad y gráficos inmersivos con Ray Tracing."
     },
     {
@@ -166,7 +166,7 @@ const products = [
             "https://images.unsplash.com/photo-1507582020474-9a35b7d455d9?auto=format&fit=crop&q=80&w=800",
             "https://images.unsplash.com/photo-1473968512647-3e447244af8f?auto=format&fit=crop&q=80&w=800"
         ],
-        amazonUrl: "https://www.amazon.com.mx/s?k=drone+con+camara",
+        amazonUrl: "https://www.amazon.com.mx/s?k=Drone+con+c%C3%A1mara+4K+8K+plegable+gps",
         description: "Detección de obstáculos omnidireccional, 45 minutos de vuelo y captura de video de grado cinematográfico."
     },
     {
@@ -175,7 +175,7 @@ const products = [
             "https://images.unsplash.com/photo-1545454675-3531b543be5d?auto=format&fit=crop&q=80&w=800",
             "https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?auto=format&fit=crop&q=80&w=800"
         ],
-        amazonUrl: "https://www.amazon.com.mx/s?k=barra+de+sonido",
+        amazonUrl: "https://www.amazon.com.mx/s?k=Barra+sonido+Dolby+Atmos+subwoofer+inal%C3%A1mbrico",
         description: "Sistema 5.1.2 canales con subwoofer inalámbrico. Transforma tu sala en una sala de cine."
     },
     {
@@ -184,7 +184,7 @@ const products = [
             "https://images.unsplash.com/photo-1622979135225-d2ba269cf1ac?auto=format&fit=crop&q=80&w=800",
             "https://images.unsplash.com/photo-1593508512255-86ab42a8e620?auto=format&fit=crop&q=80&w=800"
         ],
-        amazonUrl: "https://www.amazon.com.mx/s?k=visor+de+realidad+virtual",
+        amazonUrl: "https://www.amazon.com.mx/s?k=Visor+realidad+virtual+4K+inal%C3%A1mbrico+gafas+vr",
         description: "Completamente inalámbrico, resolución 4K por ojo y seguimiento de manos preciso sin necesidad de PC."
     },
     {
@@ -194,7 +194,7 @@ const products = [
             "https://m.media-amazon.com/images/I/81oBNpgdIiL._AC_SX522_.jpg",
             "https://m.media-amazon.com/images/I/715sRloO7tL._AC_SX522_.jpg"
         ],
-        amazonUrl: "https://www.amazon.com.mx/s?k=disco+duro+externo+ssd",
+        amazonUrl: "https://www.amazon.com.mx/s?k=Disco+duro+externo+2TB+SSD+port%C3%A1til+USB+3.0",
         description: "Velocidades de lectura de hasta 1050 MB/s, carcasa resistente a caídas y encriptación por hardware."
     },
     {
@@ -203,7 +203,7 @@ const products = [
             "https://images.unsplash.com/photo-1590602847861-f357a9332bbc?auto=format&fit=crop&q=80&w=800",
             "https://images.unsplash.com/photo-1588667687842-b05b76c8c4a1?auto=format&fit=crop&q=80&w=800"
         ],
-        amazonUrl: "https://www.amazon.com.mx/s?k=microfono+usb",
+        amazonUrl: "https://www.amazon.com.mx/s?k=Micr%C3%B3fono+condensador+USB+cardioide+para+PC+streaming",
         description: "Patrón polar cardioide, salida de auriculares sin latencia y soporte de escritorio ajustable. Perfecto para podcasts y streaming."
     },
     {
@@ -212,7 +212,7 @@ const products = [
             "https://images.unsplash.com/photo-1544197150-b99a580bb7a8?auto=format&fit=crop&q=80&w=800",
             "https://images.unsplash.com/photo-1558227031-645c3866184f?auto=format&fit=crop&q=80&w=800"
         ],
-        amazonUrl: "https://www.amazon.com.mx/s?k=router+wifi+6",
+        amazonUrl: "https://www.amazon.com.mx/s?k=Router+wifi+6+mesh+sistema+cobertura+400m2",
         description: "Elimina zonas muertas. Cobertura de hasta 400 metros cuadrados y soporte para más de 100 dispositivos conectados."
     },
 
@@ -220,31 +220,31 @@ const products = [
     {
         id: 31, isNew: false, title: "Lámpara de Escritorio LED", category: "Hogar", price: 1200.00,
         images: ["https://m.media-amazon.com/images/I/61ForvYNpnL._AC_SX679_.jpg" , "https://m.media-amazon.com/images/I/71arG4FzoQL._AC_SX679_.jpg" , "https://m.media-amazon.com/images/I/718S49LzIEL._AC_SX679_.jpg" , "https://m.media-amazon.com/images/I/71oQ8vknmBL._AC_SX679_.jpg"],
-        amazonUrl: "https://www.amazon.com.mx/s?k=lampara+de+escritorio",
+        amazonUrl: "https://www.amazon.com.mx/dp/B0FZQ7R61L",
         description: "Iluminación cálida regulable con control táctil. Líneas sobrias y limpias."
     },
     {
         id: 32, isNew: true, title: "Purificador de Aire Silencioso", category: "Hogar", price: 1999.00,
         images: ["https://m.media-amazon.com/images/I/71t-9BTIg9L._AC_SY879_.jpg" , "https://m.media-amazon.com/images/I/7176A9IqNZL._AC_SX679_.jpg" , "https://m.media-amazon.com/images/I/714IzGtWarL._AC_SX679_.jpg"],
-        amazonUrl: "https://www.amazon.com.mx/s?k=purificador+de+aire",
+        amazonUrl: "https://www.amazon.com.mx/dp/B0D1YBCWGZ",
         description: "Filtro HEPA H13, neutraliza el 99.9% de partículas con un diseño cilíndrico discreto."
     },
     {
         id: 33, isNew: true, title: "Cafetera Espresso Manual", category: "Hogar", price: 3599.00,
         images: ["https://m.media-amazon.com/images/I/61USO6Qu13L._AC_SX679_.jpg" , "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYBLBhHdBkLXnnVeAqFTtsQ99jdM8Zv5thUjYMw_TGog&s=10" , "https://m.media-amazon.com/images/I/712kgdHs7AL._AC_SX679_.jpg"],
-        amazonUrl: "https://www.amazon.com.mx/s?k=cafetera+espresso",
+        amazonUrl: "https://www.amazon.com.mx/dp/B08C96BG9H",
         description: "Extracción a 15 bares, acabados en acero mate y portafiltros profesional."
     },
     {
         id: 34, isNew: false, title: "Set de Cuchillos de Chef", category: "Hogar", price: 1735.00,
         images: ["https://images.unsplash.com/photo-1593618998160-e34014e67546?auto=format&fit=crop&q=80&w=800"],
-        amazonUrl: "https://www.amazon.com.mx/s?k=set+de+cuchillos",
+        amazonUrl: "https://www.amazon.com.mx/s?k=Set+cuchillos+chef+acero+inoxidable+japon%C3%A9s+forjado",
         description: "Acero al carbono japonés forjado en una sola pieza, equilibrio perfecto y corte de precisión."
     },
     {
         id: 35, isNew: false, title: "Silla de Oficina Ergonómica", category: "Hogar", price: 2399.00,
         images: ["https://images.unsplash.com/photo-1505843490538-5133c6c7d0e1?auto=format&fit=crop&q=80&w=800"],
-        amazonUrl: "https://www.amazon.com.mx/s?k=silla+de+oficina",
+        amazonUrl: "https://www.amazon.com.mx/s?k=Silla+oficina+ergon%C3%B3mica+malla+soporte+lumbar+ejecutiva",
         description: "Soporte lumbar dinámico, malla transpirable negra y estructura de aluminio."
     },
     // --- MÁS PRODUCTOS DE HOGAR ---
@@ -255,7 +255,7 @@ const products = [
             "https://m.media-amazon.com/images/I/61ZoQLgTwML._AC_SX679_.jpg",
             "https://m.media-amazon.com/images/I/81b31A6n7uL._AC_SX679_.jpg"
         ],
-        amazonUrl: "https://www.amazon.com.mx/s?k=aspiradora+robot",
+        amazonUrl: "https://www.amazon.com.mx/dp/B0CPFBBHP4",
         description: "Navegación LiDAR, mapeo inteligente y base de auto-vaciado. Ideal para mantener tus pisos impecables sin el más mínimo esfuerzo."
     },
     {
@@ -265,7 +265,7 @@ const products = [
             "https://m.media-amazon.com/images/I/61MhLA9luIL._AC_SX679_.jpg",
             "https://m.media-amazon.com/images/I/61Vj5Pn0hpL._AC_SX679_.jpg",
         ],
-        amazonUrl: "https://www.amazon.com.mx/s?k=sabanas+de+bambu",
+        amazonUrl: "https://www.amazon.com.mx/dp/B0FN13RWPM",
         description: "Hilos ultrasuaves, tejido termorregulador y propiedades antibacterianas. Disfruta de un descanso profundo con la máxima frescura."
     },
     {
@@ -275,7 +275,7 @@ const products = [
             "https://m.media-amazon.com/images/I/81wjlfUv0gL._AC_SX679_.jpg",
             "https://m.media-amazon.com/images/I/8139eXRd1hL._AC_SX679_.jpg",
         ],
-        amazonUrl: "https://www.amazon.com.mx/s?k=sarten+de+hierro+fundido",
+        amazonUrl: "https://www.amazon.com.mx/dp/B08C6Y494K",
         description: "Retención de calor excepcional y distribución uniforme. Perfecto para sellar cortes de carne o preparar guisos a fuego lento."
     },
     {
@@ -286,7 +286,7 @@ const products = [
             "https://m.media-amazon.com/images/I/71AThRUvGDL._AC_SX679_.jpg",
 
         ],
-        amazonUrl: "https://www.amazon.com.mx/s?k=espejo+con+luz+led",
+        amazonUrl: "https://www.amazon.com.mx/dp/B0GMHJTZYL",
         description: "Diseño minimalista sin marco con intensidad de luz cálida/fría ajustable y sistema antiniebla. El toque moderno que tu baño necesita."
     },
     {
@@ -295,7 +295,7 @@ const products = [
             "https://images.unsplash.com/photo-1485955900006-10f4d324d411?auto=format&fit=crop&q=80&w=800",
             
         ],
-        amazonUrl: "https://www.amazon.com.mx/s?k=macetas+de+ceramica",
+        amazonUrl: "https://www.amazon.com.mx/s?k=Maceta+cer%C3%A1mica+mate+n%C3%B3rdica+decoraci%C3%B3n+hogar",
         description: "Acabado mate artesanal con un elegante soporte de madera natural. Aporta calidez y vida a cualquier rincón de tu hogar."
     },
     {
@@ -306,7 +306,7 @@ const products = [
             "https://m.media-amazon.com/images/I/71-KgoURw9L._AC_SX679_.jpg",
 
         ],
-        amazonUrl: "https://www.amazon.com.mx/s?k=difusor+de+aceites+esenciales",
+        amazonUrl: "https://www.amazon.com.mx/dp/B0GQZ4QWXP",
         description: "Humidificador ultrasónico silencioso con anillo de iluminación ambiental y temporizador. Crea una atmósfera relajante en segundos."
     },
     {
@@ -316,7 +316,7 @@ const products = [
             "https://m.media-amazon.com/images/I/71oUwvZ0vQL._AC_SX679_.jpg",
             "https://m.media-amazon.com/images/I/81hQngCzCJL._AC_SX679_.jpg"
         ],
-        amazonUrl: "https://www.amazon.com.mx/s?k=toallas+de+algodon",
+        amazonUrl: "https://www.amazon.com.mx/dp/B07G9LQFJ8",
         description: "Alta capacidad de absorción, tejido de 600 gramos y suavidad inigualable. Transforma tu baño en una experiencia de spa."
     },
     {
@@ -327,7 +327,7 @@ const products = [
             "https://m.media-amazon.com/images/I/61W0-KyEhUL._AC_SX679_.jpg"
 
         ],
-        amazonUrl: "https://www.amazon.com.mx/s?k=escritorio+ajustable",
+        amazonUrl: "https://www.amazon.com.mx/dp/B0D9BD5TSB",
         description: "Superficie de bambú sólido y sistema de elevación motorizado con memoria de altura. Mejora tu postura y productividad en el trabajo."
     },
     {
@@ -337,7 +337,7 @@ const products = [
             "https://m.media-amazon.com/images/I/81Sw3xQwiyL._AC_SX679_.jpg",
             "https://m.media-amazon.com/images/I/71rJPLl+Q3L._AC_SX679_.jpg"
         ],
-        amazonUrl: "https://www.amazon.com.mx/s?k=licuadora+profesional",
+        amazonUrl: "https://www.amazon.com.mx/dp/B0CVXZ7S2R",
         description: "Motor de 1500W y cuchillas de acero inoxidable endurecido. Tritura hielo y prepara batidos sedosos al instante con control táctil."
     },
     {
@@ -347,7 +347,7 @@ const products = [
             "https://m.media-amazon.com/images/I/61Te6olGXBL._AC_SX679_.jpg",
             "https://m.media-amazon.com/images/I/71TuKtdmw3L._AC_SX679_.jpg"
         ],
-        amazonUrl: "https://www.amazon.com.mx/s?k=reloj+de+pared",
+        amazonUrl: "https://www.amazon.com.mx/dp/B0C6SGG5L6",
         description: "Movimiento continuo y silencioso (sin el molesto tic-tac), marco de metal cepillado y diseño limpio para espacios contemporáneos."
     }
     
