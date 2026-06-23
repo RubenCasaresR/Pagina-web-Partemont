@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo | E-commerce</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navegación -->
+    <header class="navbar">
+        <div class="logo">PARTE<span>MONT</span></div>
+        
+        <div class="search-container">
+            <input type="text" id="search-input" placeholder="Buscar refacciones, marcas, modelos...">
+        </div>
+
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#" class="filter-btn active" data-category="Todos">Inicio</a></li>
+                <li><a href="#" class="filter-btn" data-category="Refacciones">Refacciones Automotrices</a></li>
+                <li><a href="#" class="filter-btn" data-category="Electrónica">Electrónica</a></li>
+                <li><a href="#" class="filter-btn" data-category="Hogar">Hogar</a></li>
+                <li><a href="#" id="nav-nosotros" class="nav-nosotros-btn">Nosotros</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Banner Principal -->
+    <section class="hero">
+        <h1>Descubre nuestros productos</h1>
+        <p>Explora nuestro catálogo. Contáctanos directamente para cotizaciones e información detallada.</p>
+    </section>
+
+    <!-- Contenedor del Catálogo -->
+    <main class="container">
+        
+        <div id="catalog-view">
+            <div class="section-header">
+                <h2 id="section-title">Novedades Destacadas</h2>
+            </div>
+            <div id="product-grid" class="grid">
+                </div>
+        </div>
+
+        <div id="nosotros-view" style="display: none;">
+            <div class="about-content">
+                <h2>Sobre la Empresa</h2>
+                <p>
+                    Somos una plataforma de comercio electrónico dedicada a ofrecer una selección curada de productos de alta calidad, desde refacciones automotrices de grado profesional hasta tecnología de vanguardia y artículos premium para el hogar.
+                </p>
+                <p>
+                    Nuestro objetivo es redefinir la experiencia de abastecimiento: combinamos la agilidad de un catálogo digital moderno con un servicio de atención personalizada, asegurando que cada cliente reciba asesoría exacta, cotizaciones competitivas y soluciones a su medida.
+                </p>
+            </div>
+        </div>
+
+    </main>
+
+    <div id="product-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <div class="modal-body">
+                
+                <div class="modal-gallery">
+                    <img id="modal-main-img" src="" alt="Producto">
+                    <div class="modal-thumbnails" id="modal-thumbnails">
+                        </div>
+                </div>
+
+                <div class="modal-info">
+                  <span class="modal-category" id="modal-category"></span>
+                     <h2 id="modal-title"></h2>
+        
+                   <p id="modal-price" class="modal-price"></p>
+        
+                   <p id="modal-desc"></p>
+                   <a href="#" class="btn-primary" id="modal-contact-btn">Contactar para Información</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="contact-modal" class="modal">
+        <div class="modal-content contact-form-content">
+            <span class="close-contact-btn">&times;</span>
+            
+            <div id="form-container">
+                <h2>Solicitar Información</h2>
+                <p class="form-subtitle">Déjanos tus datos y nos comunicaremos contigo sobre este producto.</p>
+                
+                <form id="product-contact-form">
+                    <div class="form-group">
+                        <label for="client-product">Producto de interés:</label>
+                        <input type="text" id="client-product" readonly>
+                    </div>
+                    <div class="form-group">
+                        <label for="client-name">Nombre completo:</label>
+                        <input type="text" id="client-name" required placeholder="Ej. Juan Pérez">
+                    </div>
+                    <div class="form-group">
+                        <label for="client-phone">Teléfono:</label>
+                        <input type="tel" id="client-phone" required placeholder="Ej. 55 1234 5678">
+                    </div>
+                    <div class="form-group">
+                        <label for="client-email">Correo electrónico:</label>
+                        <input type="email" id="client-email" required placeholder="ejemplo@correo.com">
+                    </div>
+                    <button type="submit" class="btn-primary">Enviar Solicitud</button>
+                </form>
+            </div>
+
+            <div id="success-message" class="success-message" style="display: none;">
+                <svg class="checkmark" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 52 52">
+                    <circle class="checkmark-circle" cx="26" cy="26" r="25" fill="none"/>
+                    <path class="checkmark-check" fill="none" d="M14.1 27.2l7.1 7.2 16.7-16.8"/>
+                </svg>
+                <h3>¡Gracias por visitarnos!</h3>
+                <p>En la brevedad nos contactaremos con usted.</p>
+                <button type="button" class="btn-primary close-success-btn" style="margin-top: 1.5rem;">Cerrar</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Pie de página -->
+    <footer class="site-footer">
+        <div class="footer-container">
+            <div class="footer-col">
+                <div class="footer-logo">PARTE<span>MONT</span></div>
+                <p class="footer-desc">
+                    Especialistas en refacciones automotrices y productos de alta calidad. 
+                    Nuestro catálogo digital está diseñado para ofrecerte la mejor experiencia de búsqueda.
+                </p>
+            </div>
+
+            <div class="footer-col">
+                <h3>Enlaces Rápidos</h3>
+                <ul class="footer-links">
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#">Catálogo Completo</a></li>
+                    <li><a href="#">Términos y Condiciones</a></li>
+                    <li><a href="#">Aviso de Privacidad</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h3>Contacto</h3>
+                <ul class="footer-contact">
+                    <li><strong>Email:</strong> contacto@partemont.com</li>
+                    <li><strong>Teléfono:</strong> +52 (55) 1234 5678</li>
+                    <li><strong>Horario:</strong> Lun - Vie  9:00 AM - 6:00 PM</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2026 PARTEMONT. Todos los derechos reservados.</p>
+        </div>
+        
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
