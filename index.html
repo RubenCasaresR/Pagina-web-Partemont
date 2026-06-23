@@ -10,7 +10,7 @@
 
     <!-- Navegación -->
     <header class="navbar">
-        <div class="logo">PARTE<span>MONT</span></div>
+        <div class="logo" id="logo-link" style="cursor: pointer;">PARTE<span>MONT</span></div>
         
         <div class="search-container">
             <input type="text" id="search-input" placeholder="Buscar refacciones, marcas, modelos...">
@@ -107,11 +107,42 @@
 
         <!-- VISTA DEL CATÁLOGO (Oculta por defecto) -->
         <div id="catalog-view" style="display: none;">
+            <div id="category-banner" class="category-banner" style="display: none;">
+                <div class="banner-content">
+                    <h2 id="banner-title"></h2>
+                    <p id="banner-text"></p>
+                </div>
+            </div>
             <div class="section-header">
                 <h2 id="section-title">Novedades Destacadas</h2>
+                <div class="header-controls">
+                    <div class="per-page-selector">
+                        <label for="per-page">Ver:</label>
+                        <select id="per-page">
+                            <option value="6">6</option>
+                            <option value="12">12</option>
+                            <option value="15">15</option>
+                        </select>
+                    </div>
+                    <div class="sort-selector">
+                        <label for="sort-by">Ordenar:</label>
+                        <select id="sort-by">
+                            <option value="default">Por defecto</option>
+                            <option value="price-asc">Precio: menor a mayor</option>
+                            <option value="price-desc">Precio: mayor a menor</option>
+                            <option value="name-asc">Nombre A-Z</option>
+                            <option value="name-desc">Nombre Z-A</option>
+                        </select>
+                    </div>
+                </div>
             </div>
             <div id="product-grid" class="grid">
                 <!-- Los productos se inyectarán aquí -->
+            </div>
+            <div class="pagination" id="pagination" style="display: none;">
+                <button class="page-btn" id="prev-page">‹</button>
+                <div class="page-numbers" id="page-numbers"></div>
+                <button class="page-btn" id="next-page">›</button>
             </div>
         </div>
 
@@ -148,7 +179,7 @@
                    <h2 id="modal-title"></h2>
                    <p id="modal-price" class="modal-price"></p>
                    <p id="modal-desc"></p>
-                   <a href="#" class="btn-primary" id="modal-contact-btn">Contactar para Información</a>
+                   <a href="#" class="btn-primary" id="modal-buy-btn" target="_blank" rel="noopener noreferrer">Comprar</a>
                 </div>
             </div>
         </div>
@@ -161,7 +192,7 @@
             
             <div id="form-container">
                 <h2>Solicitar Información</h2>
-                <p class="form-subtitle">Déjanos tus datos y nos comunicaremos contigo sobre este producto.</p>
+                <p class="form-subtitle">Déjanos tus datos y en breve nos comunicaremos contigo.</p>
                 
                 <form id="product-contact-form">
                     <div class="form-group">
