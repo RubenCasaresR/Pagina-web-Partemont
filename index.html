@@ -18,7 +18,7 @@
 
         <nav>
             <ul class="nav-links">
-                <li><a href="#" class="filter-btn active" data-category="Todos">Inicio</a></li>
+                <li><a href="#" id="nav-inicio" class="active">Inicio</a></li>
                 
                 <li class="dropdown">
                     <a href="#" class="dropbtn">Categorías ▾</a>
@@ -35,23 +35,87 @@
         </nav>
     </header>
 
-    <!-- Banner Principal -->
-    <section class="hero">
-        <h1>Descubre nuestros productos</h1>
-        <p>Explora nuestro catálogo. Contáctanos directamente para cotizaciones e información detallada.</p>
-    </section>
-
-    <!-- Contenedor del Catálogo -->
+    <!-- Contenedor Principal -->
     <main class="container">
         
-        <div id="catalog-view">
+        <!-- VISTA DE INICIO PREMIUM (Visible por defecto) -->
+        <div id="inicio-view">
+            
+            <!-- Banner Principal de Alto Impacto -->
+            <div class="premium-hero">
+                <div class="hero-content">
+                    <h1>Eleva tu Experiencia de Compra</h1>
+                    <p>Encuentra las mejores refacciones automotrices, tecnología avanzada y artículos premium para tu hogar en un solo lugar.</p>
+                    <button id="btn-explorar" class="btn-primary hero-btn">Explorar el Catálogo</button>
+                </div>
+            </div>
+
+            <!-- Insignias de Confianza (Trust Badges) -->
+            <div class="trust-badges">
+                <div class="badge">
+                    <span class="badge-icon">🚚</span>
+                    <div class="badge-text">
+                        <h4>Envíos Seguros</h4>
+                        <p>A todo el país</p>
+                    </div>
+                </div>
+                <div class="badge">
+                    <span class="badge-icon">🛡️</span>
+                    <div class="badge-text">
+                        <h4>Garantía Total</h4>
+                        <p>Productos certificados</p>
+                    </div>
+                </div>
+                <div class="badge">
+                    <span class="badge-icon">💬</span>
+                    <div class="badge-text">
+                        <h4>Soporte 24/7</h4>
+                        <p>Atención personalizada</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Categorías Visuales de Acceso Rápido -->
+            <div class="home-categories">
+                <h2 class="home-section-title">Descubre Nuestras Categorías</h2>
+                <div class="cat-grid">
+                    <!-- Tarjeta Refacciones -->
+                    <div class="cat-card" data-category="Refacciones">
+                        <img src="https://images.unsplash.com/photo-1619642751034-765dfdf7c58e?auto=format&fit=crop&q=80&w=800" alt="Refacciones Automotrices">
+                        <div class="cat-overlay">
+                            <h3>Refacciones</h3>
+                        </div>
+                    </div>
+                    <!-- Tarjeta Electrónica -->
+                    <div class="cat-card" data-category="Electrónica">
+                        <img src="https://images.unsplash.com/photo-1498049794561-7780e7231661?auto=format&fit=crop&q=80&w=800" alt="Electrónica">
+                        <div class="cat-overlay">
+                            <h3>Electrónica</h3>
+                        </div>
+                    </div>
+                    <!-- Tarjeta Hogar -->
+                    <div class="cat-card" data-category="Hogar">
+                        <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&q=80&w=800" alt="Hogar">
+                        <div class="cat-overlay">
+                            <h3>Hogar</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+
+        <!-- VISTA DEL CATÁLOGO (Oculta por defecto) -->
+        <div id="catalog-view" style="display: none;">
             <div class="section-header">
                 <h2 id="section-title">Novedades Destacadas</h2>
             </div>
             <div id="product-grid" class="grid">
-                </div>
+                <!-- Los productos se inyectarán aquí -->
+            </div>
         </div>
 
+        <!-- VISTA DE NOSOTROS (Oculta por defecto) -->
         <div id="nosotros-view" style="display: none;">
             <div class="about-content">
                 <h2>Sobre la Empresa</h2>
@@ -66,6 +130,7 @@
 
     </main>
 
+    <!-- Modal para detalles del producto -->
     <div id="product-modal" class="modal">
         <div class="modal-content">
             <span class="close-btn">&times;</span>
@@ -74,21 +139,22 @@
                 <div class="modal-gallery">
                     <img id="modal-main-img" src="" alt="Producto">
                     <div class="modal-thumbnails" id="modal-thumbnails">
-                        </div>
+                        <!-- Las miniaturas se inyectarán con JavaScript -->
+                    </div>
                 </div>
 
                 <div class="modal-info">
                   <span class="modal-category" id="modal-category"></span>
-                     <h2 id="modal-title"></h2>
-        
+                   <h2 id="modal-title"></h2>
                    <p id="modal-price" class="modal-price"></p>
-        
                    <p id="modal-desc"></p>
                    <a href="#" class="btn-primary" id="modal-contact-btn">Contactar para Información</a>
                 </div>
             </div>
         </div>
     </div>
+
+    <!-- Modal de Formulario de Contacto -->
     <div id="contact-modal" class="modal">
         <div class="modal-content contact-form-content">
             <span class="close-contact-btn">&times;</span>
@@ -99,7 +165,7 @@
                 
                 <form id="product-contact-form">
                     <div class="form-group">
-                        <label for="client-product">Producto de interés:</label>
+                        <label for="client-product">Producto/Motivo de interés:</label>
                         <input type="text" id="client-product" readonly>
                     </div>
                     <div class="form-group">
@@ -118,6 +184,7 @@
                 </form>
             </div>
 
+            <!-- Mensaje de Éxito -->
             <div id="success-message" class="success-message" style="display: none;">
                 <svg class="checkmark" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 52 52">
                     <circle class="checkmark-circle" cx="26" cy="26" r="25" fill="none"/>
@@ -164,7 +231,6 @@
         <div class="footer-bottom">
             <p>&copy; 2026 PARTEMONT. Todos los derechos reservados.</p>
         </div>
-        
     </footer>
 
     <script src="script.js"></script>
