@@ -9,66 +9,71 @@ const products = [
         description: "Set de amortiguadores de gas de alta durabilidad para una conducción suave y segura."
     },
     {
-        id: 2, isNew: false, title: "Filtro de Aceite Sintético", category: "Refacciones", price: 1735.00,
+        id: 2, isNew: false, title: "Filtro de Aceite Sintético", category: "Refacciones", price: 1358.00,
         images: ["https://m.media-amazon.com/images/I/61zZpX0P+kL._AC_SX522_.jpg" , "https://m.media-amazon.com/images/I/719JoYRO8LL._AC_SX522_.jpg" , "https://m.media-amazon.com/images/I/71co+iJL4VL._AC_SX522_.jpg" ],
         description: "Filtro de alto rendimiento que atrapa hasta el 99% de las impurezas del motor."
     },
     {
-        id: 3, isNew: true, title: "Balatas de Cerámica", category: "Refacciones", price: 1735.00,
+        id: 3, isNew: true, title: "Balatas de Cerámica", category: "Refacciones", price: 6476.00,
         images: ["https://m.media-amazon.com/images/I/71ot4I1QXsL._AC_SX522_.jpg" , "https://m.media-amazon.com/images/I/71HMano9JwL._AC_SX522_.jpg"],
         description: "Frenado silencioso y con menor emisión de polvo. Ideal para manejo en ciudad."
     },
     {
-        id: 4, isNew: false, title: "Batería de Gel 12V", category: "Refacciones", price: 1735.00,
+        id: 4, isNew: false, title: "Batería de Gel 12V", category: "Refacciones", price: 6348.00,
         images: ["https://m.media-amazon.com/images/I/613o7DeQ-6L._AC_SX522_.jpg" , "https://m.media-amazon.com/images/I/61Cd+ieJ7UL._AC_SX522_.jpg" ,"https://m.media-amazon.com/images/I/712Rz8WdjUL._AC_SX522_.jpg"],
         description: "Batería libre de mantenimiento con tecnología de gel para mayor vida útil y rendimiento en climas extremos."
     },
     {
-        id: 5, isNew: false, title: "Kit de Faros LED Luz Blanca", category: "Refacciones", price: 1735.00,
+        id: 5, isNew: false, title: "Kit de Faros LED Luz Blanca", category: "Refacciones", price: 6987.00,
         images: ["https://m.media-amazon.com/images/I/71FwMAKGw4L._AC_SY300_SX300_QL70_ML2_.jpg" , "https://m.media-amazon.com/images/I/818uYsa2olL._AC_SX522_.jpg" , "https://m.media-amazon.com/images/I/71B3jVB0y3L._AC_SX522_.jpg"],
         description: "Iluminación de 8000 lúmenes con diseño de disipación de calor ultradelgado."
+    },
+    {
+        id: 16, isNew: false, title: "Convertidor catalítico trasero", category: "Refacciones", price: 1442.00,
+        images: ["https://m.media-amazon.com/images/I/71r2v4B9ZmL._AC_SX522_.jpg" , "https://m.media-amazon.com/images/I/71BnoTnBQ9L._AC_SX522_.jpg" , "https://m.media-amazon.com/images/I/71NvU+36u1L._AC_SX522_.jpg" , "https://m.media-amazon.com/images/I/71V-0iaGqzL._AC_SX522_.jpg"],
+        description: "PHILTOP - Convertidor catalítico trasero compatible con Honda Acura, 2005-2008 Odyssey/Pilot 3.5L, 2003-2007 Accord 3.0L, 2004-2008 TL 3.2L, 2006-2011 Ridgeline 3.5L, 2003-20006 MDX 3.5 L"
     },
 
     // --- ELECTRÓNICA ---
     {
-        id: 6, isNew: true, title: "Audífonos Inalámbricos Minimal", category: "Electrónica", price: 1735.00,
+        id: 6, isNew: true, title: "Audífonos Inalámbricos Minimal", category: "Electrónica", price: 999.00,
         images: ["https://m.media-amazon.com/images/I/61XQQPIo2cL._AC_SY679_.jpg" , "https://m.media-amazon.com/images/I/71+8Sf57C3L._AC_SY679_.jpg" , "https://m.media-amazon.com/images/I/61v+nEtx31L._AC_SY679_.jpg"],
         description: "Cancelación de ruido activa, batería de 30 horas y diseño en aluminio pulido."
     },
     {
-        id: 7, isNew: false, title: "Smartwatch Deportivo V2", category: "Electrónica", price: 1735.00,
-        images: ["https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&q=80&w=800"],
+        id: 7, isNew: false, title: "Smartwatch Deportivo V2", category: "Electrónica", price: 1500.00,
+        images: ["https://m.media-amazon.com/images/I/61BG7aYMZEL._AC_SX522_.jpg" , "https://m.media-amazon.com/images/I/614pAKkequL._AC_SX522_.jpg" , "https://m.media-amazon.com/images/I/61qRWT+M+VL._AC_SX522_.jpg" ,"https://m.media-amazon.com/images/I/61dhz9ZKpKL._AC_SX522_.jpg"],
         description: "Caja de acero inoxidable, GPS integrado y resistencia al agua hasta 50 metros."
     },
     {
-        id: 8, isNew: true, title: "Teclado Mecánico Elegante", category: "Electrónica", price: 1735.00,
+        id: 8, isNew: true, title: "Teclado Mecánico Elegante", category: "Electrónica", price: 2199.00,
         images: ["https://m.media-amazon.com/images/I/61mB8mL33pL._AC_SX522_.jpg" , "https://m.media-amazon.com/images/I/71eMryluCJL._AC_SX522_.jpg" , "https://m.media-amazon.com/images/I/61GleNTVFOL._AC_SX522_.jpg"],
         description: "Switches silenciosos, retroiluminación blanca sutil y chasis de aleación de magnesio."
     },
     {
-        id: 9, isNew: false, title: "Monitor 4K Profesional", category: "Electrónica", price: 1735.00,
+        id: 9, isNew: false, title: "Monitor 4K Profesional", category: "Electrónica", price: 8534.00,
         images: ["https://m.media-amazon.com/images/I/91dkLCfM8dL._AC_SX522_.jpg" , "https://m.media-amazon.com/images/I/712-CXJj6oL._AC_SX522_.jpg" , "https://m.media-amazon.com/images/I/71PpaJoDtQL._AC_SX522_.jpg"],
         description: "Pantalla sin bordes de 27 pulgadas, calibración de color de fábrica y soporte ergonómico ajustable."
     },
     {
-        id: 10, isNew: false, title: "Altavoz Bluetooth Portátil", category: "Electrónica", price: 1735.00,
+        id: 10, isNew: false, title: "Altavoz Bluetooth Portátil", category: "Electrónica", price: 800.00,
         images: ["https://m.media-amazon.com/images/I/71wOrl8wEwL._AC_SX522_.jpg" , "https://m.media-amazon.com/images/I/71DD1+YAhVL._AC_SX522_.jpg" , "https://m.media-amazon.com/images/I/61HT5x6yFxL._AC_SX522_.jpg"],
         description: "Sonido envolvente de 360 grados recubierto en tela premium acústicamente transparente."
     },
 
     // --- HOGAR ---
     {
-        id: 11, isNew: false, title: "Lámpara de Escritorio LED", category: "Hogar", price: 1735.00,
-        images: ["https://images.unsplash.com/photo-1507473885765-e6ed057f782c?auto=format&fit=crop&q=80&w=800"],
+        id: 11, isNew: false, title: "Lámpara de Escritorio LED", category: "Hogar", price: 1200.00,
+        images: ["https://m.media-amazon.com/images/I/61ForvYNpnL._AC_SX679_.jpg" , "https://m.media-amazon.com/images/I/71arG4FzoQL._AC_SX679_.jpg" , "https://m.media-amazon.com/images/I/718S49LzIEL._AC_SX679_.jpg" , "https://m.media-amazon.com/images/I/71oQ8vknmBL._AC_SX679_.jpg"],
         description: "Iluminación cálida regulable con control táctil. Líneas sobrias y limpias."
     },
     {
-        id: 12, isNew: true, title: "Purificador de Aire Silencioso", category: "Hogar", price: 1735.00,
+        id: 12, isNew: true, title: "Purificador de Aire Silencioso", category: "Hogar", price: 1999.00,
         images: ["https://m.media-amazon.com/images/I/71t-9BTIg9L._AC_SY879_.jpg" , "https://m.media-amazon.com/images/I/7176A9IqNZL._AC_SX679_.jpg" , "https://m.media-amazon.com/images/I/714IzGtWarL._AC_SX679_.jpg"],
         description: "Filtro HEPA H13, neutraliza el 99.9% de partículas con un diseño cilíndrico discreto."
     },
     {
-        id: 13, isNew: true, title: "Cafetera Espresso Manual", category: "Hogar", price: 1735.00,
+        id: 13, isNew: true, title: "Cafetera Espresso Manual", category: "Hogar", price: 3599.00,
         images: ["https://m.media-amazon.com/images/I/61USO6Qu13L._AC_SX679_.jpg" , "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYBLBhHdBkLXnnVeAqFTtsQ99jdM8Zv5thUjYMw_TGog&s=10" , "https://m.media-amazon.com/images/I/712kgdHs7AL._AC_SX679_.jpg"],
         description: "Extracción a 15 bares, acabados en acero mate y portafiltros profesional."
     },
@@ -78,7 +83,7 @@ const products = [
         description: "Acero al carbono japonés forjado en una sola pieza, equilibrio perfecto y corte de precisión."
     },
     {
-        id: 15, isNew: false, title: "Silla de Oficina Ergonómica", category: "Hogar", price: 1735.00,
+        id: 15, isNew: false, title: "Silla de Oficina Ergonómica", category: "Hogar", price: 2399.00,
         images: ["https://images.unsplash.com/photo-1505843490538-5133c6c7d0e1?auto=format&fit=crop&q=80&w=800"],
         description: "Soporte lumbar dinámico, malla transpirable negra y estructura de aluminio."
     }
@@ -91,6 +96,10 @@ const products = [
 const catalogView = document.getElementById('catalog-view');
 const nosotrosView = document.getElementById('nosotros-view');
 const btnNosotros = document.getElementById('nav-nosotros');
+const btnContactoNav = document.getElementById('nav-contacto');
+// Variables del menú desplegable (Faltaban en tu código)
+const dropBtn = document.querySelector('.dropbtn');
+const dropdownContent = document.querySelector('.dropdown-content');
 
 const grid = document.getElementById('product-grid');
 const filterBtns = document.querySelectorAll('.filter-btn');
@@ -176,6 +185,21 @@ searchInput.addEventListener('input', (e) => {
     }
     
     renderProducts();
+});
+
+// Lógica para el botón "Categorías" (Faltaba en tu código)
+dropBtn.addEventListener('click', (e) => {
+    e.preventDefault();
+    dropdownContent.classList.toggle('show-menu');
+});
+
+// Ocultar el menú si haces clic fuera de él
+window.addEventListener('click', (e) => {
+    if (!e.target.matches('.dropbtn')) {
+        if (dropdownContent && dropdownContent.classList.contains('show-menu')) {
+            dropdownContent.classList.remove('show-menu');
+        }
+    }
 });
 
 // ==========================================
@@ -320,6 +344,25 @@ contactBtn.onclick = (e) => {
     
     setTimeout(() => { contactModal.classList.add('show'); }, 200); 
 };
+
+// NUEVO: Abrir Modal de Contacto desde el Menú Superior
+btnContactoNav.addEventListener('click', (e) => {
+    e.preventDefault();
+    
+    // Como es desde el menú, es una consulta general (no un producto específico)
+    inputClientProduct.value = "Consulta General"; 
+    
+    // Limpiar el formulario
+    formContainer.style.display = 'block';
+    successMessage.style.display = 'none';
+    
+    document.getElementById('client-name').value = '';
+    document.getElementById('client-phone').value = '';
+    document.getElementById('client-email').value = '';
+    
+    // Mostrar el modal
+    contactModal.classList.add('show');
+});
 
 contactForm.addEventListener('submit', (e) => {
     e.preventDefault(); 

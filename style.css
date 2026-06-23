@@ -60,6 +60,82 @@ body {
     color: var(--accent-color);
 }
 
+/* --- Menú Desplegable de Categorías --- */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropbtn {
+    text-decoration: none;
+    color: var(--text-muted);
+    font-weight: 500;
+    transition: color 0.3s;
+    cursor: pointer;
+}
+
+.dropdown:hover .dropbtn {
+    color: var(--accent-color);
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: var(--card-bg);
+    min-width: 220px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    z-index: 1000;
+    top: 100%;
+    left: 0;
+    /* margin-top: 10px;  <-- ELIMINAMOS ESTA LÍNEA QUE CAUSABA EL ERROR */
+    opacity: 0;
+    transform: translateY(-10px);
+    transition: all 0.3s ease;
+}
+
+/* Modificado para soportar Hover sin cortes y Clics en móviles */
+.dropdown:hover .dropdown-content,
+.dropdown-content.show-menu {
+    display: block;
+    opacity: 1;
+    transform: translateY(0);
+    animation: fadeInDropdown 0.3s ease forwards;
+}
+
+@keyframes fadeInDropdown {
+    from { opacity: 0; transform: translateY(-10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.dropdown-content a {
+    color: var(--text-main);
+    padding: 12px 20px;
+    text-decoration: none;
+    display: block;
+    transition: background-color 0.2s, color 0.2s;
+    font-size: 0.95rem;
+}
+
+.dropdown-content a:hover, .dropdown-content a.active {
+    background-color: #f8fafc;
+    color: var(--accent-color);
+    padding-left: 25px; /* Efecto premium al pasar el cursor */
+}
+
+/* Enlace de Contacto */
+.nav-contacto-btn {
+    text-decoration: none;
+    color: var(--text-muted);
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+.nav-contacto-btn:hover {
+    color: var(--accent-color);
+}
+
 /* Hero Section */
 .hero {
     text-align: center;
