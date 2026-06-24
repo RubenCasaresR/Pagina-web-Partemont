@@ -184,7 +184,7 @@ const products = [
             "https://images.unsplash.com/photo-1622979135225-d2ba269cf1ac?auto=format&fit=crop&q=80&w=800",
             "https://images.unsplash.com/photo-1593508512255-86ab42a8e620?auto=format&fit=crop&q=80&w=800"
         ],
-        amazonUrl: "https://www.amazon.com.mx/ADATA-AHD710P-2TU31-CBK-Disco-Externo-Color/dp/B0744NCY4K",
+        amazonUrl: "https://www.amazon.com.mx/Meta-Quest-128-Visor-procesamiento/dp/B0FS9V91QL",
         description: "Completamente inalámbrico, resolución 4K por ojo y seguimiento de manos preciso sin necesidad de PC."
     },
     {
@@ -194,7 +194,7 @@ const products = [
             "https://m.media-amazon.com/images/I/81oBNpgdIiL._AC_SX522_.jpg",
             "https://m.media-amazon.com/images/I/715sRloO7tL._AC_SX522_.jpg"
         ],
-        amazonUrl: "https://www.amazon.com.mx/s?k=Disco+duro+externo+2TB+SSD+port%C3%A1til+USB+3.0",
+        amazonUrl: "https://www.amazon.com.mx/ADATA-AHD710P-2TU31-CBK-Disco-Externo-Color/dp/B0744NCY4K",
         description: "Velocidades de lectura de hasta 1050 MB/s, carcasa resistente a caídas y encriptación por hardware."
     },
     {
@@ -212,7 +212,7 @@ const products = [
             "https://images.unsplash.com/photo-1544197150-b99a580bb7a8?auto=format&fit=crop&q=80&w=800",
             "https://images.unsplash.com/photo-1558227031-645c3866184f?auto=format&fit=crop&q=80&w=800"
         ],
-        amazonUrl: "https://www.amazon.com.mx/TP-Link-Archer-C6-1167Mbps-externas/dp",
+        amazonUrl: "https://www.amazon.com.mx/TP-Link-Deco-1300Mbps-Compatible-S7/dp/B0BWSFG5J8",
         description: "Elimina zonas muertas. Cobertura de hasta 400 metros cuadrados y soporte para más de 100 dispositivos conectados."
     },
 
