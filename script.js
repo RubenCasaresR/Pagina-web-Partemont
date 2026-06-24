@@ -6,31 +6,31 @@ const products = [
     {
         id: 1, isNew: true, title: "Amortiguadores Traseros Premium", category: "Refacciones", price: 1735.00,
         images: ["https://m.media-amazon.com/images/I/719V8uJDZRL._AC_SX522_.jpg", "https://m.media-amazon.com/images/I/71WowKq+Q4L._AC_SX522_.jpg" , "https://m.media-amazon.com/images/I/81yhninBk3L._AC_SX522_.jpg"],
-        amazonUrl: "https://www.amazon.com.mx/dp/B0DB6QTDPM",
+        amazonUrl: "https://www.amazon.com.mx/Premium-amortiguadores-compatible-2008-2020-Volkswagen/dp/B0CWP8YRNP",
         description: "Set de amortiguadores de gas de alta durabilidad para una conducción suave y segura."
     },
     {
         id: 2, isNew: false, title: "Filtro de Aceite Sintético", category: "Refacciones", price: 1358.00,
         images: ["https://m.media-amazon.com/images/I/61zZpX0P+kL._AC_SX522_.jpg" , "https://m.media-amazon.com/images/I/719JoYRO8LL._AC_SX522_.jpg" , "https://m.media-amazon.com/images/I/71co+iJL4VL._AC_SX522_.jpg" ],
-        amazonUrl: "https://www.amazon.com.mx/dp/B004SIURFI",
+        amazonUrl: "https://www.amazon.com.mx/Bosch-3330-Premium-Filtech-Filtro/dp/B002EBSLA4",
         description: "Filtro de alto rendimiento que atrapa hasta el 99% de las impurezas del motor."
     },
     {
         id: 3, isNew: true, title: "Balatas de Cerámica", category: "Refacciones", price: 6476.00,
         images: ["https://m.media-amazon.com/images/I/71ot4I1QXsL._AC_SX522_.jpg" , "https://m.media-amazon.com/images/I/71HMano9JwL._AC_SX522_.jpg"],
-        amazonUrl: "https://www.amazon.com.mx/dp/B0CJT45HDZ",
+        amazonUrl: "https://www.amazon.com.mx/Bosch-Juego-Pastillas-BE1000H-Accesorios/dp/B00MY3R1WG",
         description: "Frenado silencioso y con menor emisión de polvo. Ideal para manejo en ciudad."
     },
     {
         id: 4, isNew: false, title: "Batería de Gel 12V", category: "Refacciones", price: 6348.00,
         images: ["https://m.media-amazon.com/images/I/613o7DeQ-6L._AC_SX522_.jpg" , "https://m.media-amazon.com/images/I/61Cd+ieJ7UL._AC_SX522_.jpg" ,"https://m.media-amazon.com/images/I/712Rz8WdjUL._AC_SX522_.jpg"],
-        amazonUrl: "https://www.amazon.com.mx/dp/B0CPP2FKXB",
+        amazonUrl: "https://www.amazon.com.mx/ML35-12GEL-Temrinal-Recargable-Producto-Original/dp/B01HC55J24",
         description: "Batería libre de mantenimiento con tecnología de gel para mayor vida útil y rendimiento en climas extremos."
     },
     {
         id: 5, isNew: false, title: "Kit de Faros LED Luz Blanca", category: "Refacciones", price: 6987.00,
         images: ["https://m.media-amazon.com/images/I/71FwMAKGw4L._AC_SY300_SX300_QL70_ML2_.jpg" , "https://m.media-amazon.com/images/I/818uYsa2olL._AC_SX522_.jpg" , "https://m.media-amazon.com/images/I/71B3jVB0y3L._AC_SX522_.jpg"],
-        amazonUrl: "https://www.amazon.com.mx/dp/B07TW4WHVB",
+        amazonUrl: "https://www.amazon.com.mx/Duo-Lu-Tong-50000LM-Bombillas/dp/B0G2LLKZT7",
         description: "Iluminación de 8000 lúmenes con diseño de disipación de calor ultradelgado."
     },
     {
@@ -102,25 +102,25 @@ const products = [
     {
         id: 17, isNew: false, title: "Smartwatch Deportivo V2", category: "Electrónica", price: 1500.00,
         images: ["https://m.media-amazon.com/images/I/61BG7aYMZEL._AC_SX522_.jpg" , "https://m.media-amazon.com/images/I/614pAKkequL._AC_SX522_.jpg" , "https://m.media-amazon.com/images/I/61qRWT+M+VL._AC_SX522_.jpg" ,"https://m.media-amazon.com/images/I/61dhz9ZKpKL._AC_SX522_.jpg"],
-        amazonUrl: "https://www.amazon.com.mx/dp/B0GC657H83",
+        amazonUrl: "https://www.amazon.com.mx/XIAOMI-Smartwatch-Resistencia-Entrenamiento-Monitoreo/dp/B0DFZPR9Z4",
         description: "Caja de acero inoxidable, GPS integrado y resistencia al agua hasta 50 metros."
     },
     {
         id: 18, isNew: true, title: "Teclado Mecánico Elegante", category: "Electrónica", price: 2199.00,
         images: ["https://m.media-amazon.com/images/I/61mB8mL33pL._AC_SX522_.jpg" , "https://m.media-amazon.com/images/I/71eMryluCJL._AC_SX522_.jpg" , "https://m.media-amazon.com/images/I/61GleNTVFOL._AC_SX522_.jpg"],
-        amazonUrl: "https://www.amazon.com.mx/dp/B09DGMXLFP",
+        amazonUrl: "https://www.amazon.com.mx/F99-intercambiable-interruptores-prelubricados-retroiluminado/dp/B0CLLHSWRL",
         description: "Switches silenciosos, retroiluminación blanca sutil y chasis de aleación de magnesio."
     },
     {
         id: 19, isNew: false, title: "Monitor 4K Profesional", category: "Electrónica", price: 8534.00,
         images: ["https://m.media-amazon.com/images/I/91dkLCfM8dL._AC_SX522_.jpg" , "https://m.media-amazon.com/images/I/712-CXJj6oL._AC_SX522_.jpg" , "https://m.media-amazon.com/images/I/71PpaJoDtQL._AC_SX522_.jpg"],
-        amazonUrl: "https://www.amazon.com.mx/dp/B0FB46P6F6",
+        amazonUrl: "https://www.amazon.com.mx/Asus-PA279CRV/dp/B0BQPSX5CR",
         description: "Pantalla sin bordes de 27 pulgadas, calibración de color de fábrica y soporte ergonómico ajustable."
     },
     {
         id: 20, isNew: false, title: "Altavoz Bluetooth Portátil", category: "Electrónica", price: 800.00,
         images: ["https://m.media-amazon.com/images/I/71wOrl8wEwL._AC_SX522_.jpg" , "https://m.media-amazon.com/images/I/71DD1+YAhVL._AC_SX522_.jpg" , "https://m.media-amazon.com/images/I/61HT5x6yFxL._AC_SX522_.jpg"],
-        amazonUrl: "https://www.amazon.com.mx/dp/B0C23HCN2L",
+        amazonUrl: "https://www.amazon.com.mx/XIAOMI-Reproducci%C3%B3n-Waterproof-Bluetooth-micr%C3%B3fono/dp/B0CZRLRGM5",
         description: "Sonido envolvente de 360 grados recubierto en tela premium acústicamente transparente."
     },
     {
@@ -157,7 +157,7 @@ const products = [
             "https://images.unsplash.com/photo-1606144042614-b2417e99c4e3?auto=format&fit=crop&q=80&w=800",
             "https://images.unsplash.com/photo-1605901309584-818e25960b8f?auto=format&fit=crop&q=80&w=800"
         ],
-        amazonUrl: "https://www.amazon.com.mx/s?k=Consola+PlayStation+5+Xbox+videojuegos+next+gen",
+        amazonUrl: "https://www.amazon.com.mx/Consola-PlayStation-5-Standard-Edition/dp/B09HTN51HN",
         description: "Experimenta tiempos de carga ultrarrápidos con SSD de alta velocidad y gráficos inmersivos con Ray Tracing."
     },
     {
@@ -166,7 +166,7 @@ const products = [
             "https://images.unsplash.com/photo-1507582020474-9a35b7d455d9?auto=format&fit=crop&q=80&w=800",
             "https://images.unsplash.com/photo-1473968512647-3e447244af8f?auto=format&fit=crop&q=80&w=800"
         ],
-        amazonUrl: "https://www.amazon.com.mx/s?k=Drone+con+c%C3%A1mara+4K+8K+plegable+gps",
+        amazonUrl: "https://www.amazon.com.mx/Dron-C%C3%A1mara-F%C3%A1cil-Viajes-Principiantes/dp/B0H5JXYM8D",
         description: "Detección de obstáculos omnidireccional, 45 minutos de vuelo y captura de video de grado cinematográfico."
     },
     {
@@ -184,7 +184,7 @@ const products = [
             "https://images.unsplash.com/photo-1622979135225-d2ba269cf1ac?auto=format&fit=crop&q=80&w=800",
             "https://images.unsplash.com/photo-1593508512255-86ab42a8e620?auto=format&fit=crop&q=80&w=800"
         ],
-        amazonUrl: "https://www.amazon.com.mx/s?k=Visor+realidad+virtual+4K+inal%C3%A1mbrico+gafas+vr",
+        amazonUrl: "https://www.amazon.com.mx/ADATA-AHD710P-2TU31-CBK-Disco-Externo-Color/dp/B0744NCY4K",
         description: "Completamente inalámbrico, resolución 4K por ojo y seguimiento de manos preciso sin necesidad de PC."
     },
     {
@@ -212,7 +212,7 @@ const products = [
             "https://images.unsplash.com/photo-1544197150-b99a580bb7a8?auto=format&fit=crop&q=80&w=800",
             "https://images.unsplash.com/photo-1558227031-645c3866184f?auto=format&fit=crop&q=80&w=800"
         ],
-        amazonUrl: "https://www.amazon.com.mx/s?k=Router+wifi+6+mesh+sistema+cobertura+400m2",
+        amazonUrl: "https://www.amazon.com.mx/TP-Link-Archer-C6-1167Mbps-externas/dp",
         description: "Elimina zonas muertas. Cobertura de hasta 400 metros cuadrados y soporte para más de 100 dispositivos conectados."
     },
 
@@ -220,19 +220,19 @@ const products = [
     {
         id: 31, isNew: false, title: "Lámpara de Escritorio LED", category: "Hogar", price: 1200.00,
         images: ["https://m.media-amazon.com/images/I/61ForvYNpnL._AC_SX679_.jpg" , "https://m.media-amazon.com/images/I/71arG4FzoQL._AC_SX679_.jpg" , "https://m.media-amazon.com/images/I/718S49LzIEL._AC_SX679_.jpg" , "https://m.media-amazon.com/images/I/71oQ8vknmBL._AC_SX679_.jpg"],
-        amazonUrl: "https://www.amazon.com.mx/dp/B0FZQ7R61L",
+        amazonUrl: "https://www.amazon.com.mx/Escritorio-Salandens-Abrazadera-eficiencia-energ%C3%A9tica/dp/B08F5JMR9Z",
         description: "Iluminación cálida regulable con control táctil. Líneas sobrias y limpias."
     },
     {
         id: 32, isNew: true, title: "Purificador de Aire Silencioso", category: "Hogar", price: 1999.00,
         images: ["https://m.media-amazon.com/images/I/71t-9BTIg9L._AC_SY879_.jpg" , "https://m.media-amazon.com/images/I/7176A9IqNZL._AC_SX679_.jpg" , "https://m.media-amazon.com/images/I/714IzGtWarL._AC_SX679_.jpg"],
-        amazonUrl: "https://www.amazon.com.mx/dp/B0D1YBCWGZ",
+        amazonUrl: "https://www.amazon.com.mx/LEVOIT-Purificador-blanco-Core-300/dp/B07VVK39F7",
         description: "Filtro HEPA H13, neutraliza el 99.9% de partículas con un diseño cilíndrico discreto."
     },
     {
         id: 33, isNew: true, title: "Cafetera Espresso Manual", category: "Hogar", price: 3599.00,
         images: ["https://m.media-amazon.com/images/I/61USO6Qu13L._AC_SX679_.jpg" , "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYBLBhHdBkLXnnVeAqFTtsQ99jdM8Zv5thUjYMw_TGog&s=10" , "https://m.media-amazon.com/images/I/712kgdHs7AL._AC_SX679_.jpg"],
-        amazonUrl: "https://www.amazon.com.mx/dp/B08C96BG9H",
+        amazonUrl: "https://www.amazon.com.mx/Flair-Espresso-Maker-Manual-Press/dp/B06X916JM8",
         description: "Extracción a 15 bares, acabados en acero mate y portafiltros profesional."
     },
     {
@@ -255,7 +255,7 @@ const products = [
             "https://m.media-amazon.com/images/I/61ZoQLgTwML._AC_SX679_.jpg",
             "https://m.media-amazon.com/images/I/81b31A6n7uL._AC_SX679_.jpg"
         ],
-        amazonUrl: "https://www.amazon.com.mx/dp/B0CPFBBHP4",
+        amazonUrl: "https://www.amazon.com.mx/DREAME-D15-Inteligente-supersucci%C3%B3n-obst%C3%A1culos/dp/B0G7HVXJQD",
         description: "Navegación LiDAR, mapeo inteligente y base de auto-vaciado. Ideal para mantener tus pisos impecables sin el más mínimo esfuerzo."
     },
     {
@@ -265,7 +265,7 @@ const products = [
             "https://m.media-amazon.com/images/I/61MhLA9luIL._AC_SX679_.jpg",
             "https://m.media-amazon.com/images/I/61Vj5Pn0hpL._AC_SX679_.jpg",
         ],
-        amazonUrl: "https://www.amazon.com.mx/dp/B0FN13RWPM",
+        amazonUrl: "https://www.amazon.com.mx/Smart-Bamboo-Microfibra-Cepillado-Matrimonial/dp/B0FBTHFM7F",
         description: "Hilos ultrasuaves, tejido termorregulador y propiedades antibacterianas. Disfruta de un descanso profundo con la máxima frescura."
     },
     {
@@ -275,7 +275,7 @@ const products = [
             "https://m.media-amazon.com/images/I/81wjlfUv0gL._AC_SX679_.jpg",
             "https://m.media-amazon.com/images/I/8139eXRd1hL._AC_SX679_.jpg",
         ],
-        amazonUrl: "https://www.amazon.com.mx/dp/B08C6Y494K",
+        amazonUrl: "https://www.amazon.com.mx/Sartenes-Fundido-Previamente-Cast-Iron-Skillet/dp/B08VQKYMNJ",
         description: "Retención de calor excepcional y distribución uniforme. Perfecto para sellar cortes de carne o preparar guisos a fuego lento."
     },
     {
@@ -286,7 +286,7 @@ const products = [
             "https://m.media-amazon.com/images/I/71AThRUvGDL._AC_SX679_.jpg",
 
         ],
-        amazonUrl: "https://www.amazon.com.mx/dp/B0GMHJTZYL",
+        amazonUrl: "https://www.amazon.com.mx/mangatta-Circular-di%C3%A1metro-Bastidor-Aluminio/dp/B0C16GDFC3",
         description: "Diseño minimalista sin marco con intensidad de luz cálida/fría ajustable y sistema antiniebla. El toque moderno que tu baño necesita."
     },
     {
@@ -327,7 +327,7 @@ const products = [
             "https://m.media-amazon.com/images/I/61W0-KyEhUL._AC_SX679_.jpg"
 
         ],
-        amazonUrl: "https://www.amazon.com.mx/dp/B0D9BD5TSB",
+        amazonUrl: "https://www.amazon.com.mx/VIVO-escritorio-ergon%C3%B3mica-controlador-DESK-V100EB/dp/B08299Z43C",
         description: "Superficie de bambú sólido y sistema de elevación motorizado con memoria de altura. Mejora tu postura y productividad en el trabajo."
     },
     {
@@ -337,7 +337,7 @@ const products = [
             "https://m.media-amazon.com/images/I/81Sw3xQwiyL._AC_SX679_.jpg",
             "https://m.media-amazon.com/images/I/71rJPLl+Q3L._AC_SX679_.jpg"
         ],
-        amazonUrl: "https://www.amazon.com.mx/dp/B0CVXZ7S2R",
+        amazonUrl: "https://www.amazon.com.mx/ULTRACHEF-Ultrachef-Licuadora-Profesional/dp/B099CMX4GV",
         description: "Motor de 1500W y cuchillas de acero inoxidable endurecido. Tritura hielo y prepara batidos sedosos al instante con control táctil."
     },
     {
