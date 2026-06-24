@@ -226,7 +226,7 @@ const products = [
     {
         id: 32, isNew: true, title: "Purificador de Aire Silencioso", category: "Hogar", price: 1999.00,
         images: ["https://m.media-amazon.com/images/I/71t-9BTIg9L._AC_SY879_.jpg" , "https://m.media-amazon.com/images/I/7176A9IqNZL._AC_SX679_.jpg" , "https://m.media-amazon.com/images/I/714IzGtWarL._AC_SX679_.jpg"],
-        amazonUrl: "https://www.amazon.com.mx/LEVOIT-Purificador-blanco-Core-300/dp/B07VVK39F7",
+        amazonUrl: "https://www.amazon.com.mx/gp/aw/d/B09P4NL3DW",
         description: "Filtro HEPA H13, neutraliza el 99.9% de partículas con un diseño cilíndrico discreto."
     },
     {
